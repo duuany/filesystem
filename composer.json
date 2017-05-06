@@ -1,0 +1,22 @@
+{
+  "name": "corporatte/filesystem",
+  "description": "A filesystem Lib",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jorge -jjsquady- Junior",
+      "email": "jjsquady@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "5.7.*"
+  },
+  "scripts": {
+    "test": "phpunit --coverage-text"
+  },
+  "autoload": {
+    "psr-4": {
+      "Corporatte\\Filesystem\\": "src/"
+    }
+  }
+}
